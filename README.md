@@ -3,7 +3,7 @@
 ###The Quick intro:
 Create a preview of a page containing header.html, article.html and footer.html, just by using the url index.html?header:article:footer. Add multiple instances of an molecule to a organism with
 ```html
-	<molecule data-molecule="ref" data-nr="nr" />
+<molecule data-molecule="ref" data-nr="nr" />
 ```
 
 ###What it is:
@@ -31,9 +31,9 @@ You build a template by adding the sequence of organisms to your url. If you lik
 
 To include molecules in your organisms, add:  
 ```html
-	<molecule data-molecule="ference" />
+<molecule data-molecule="ference" />
 ```
 where you want the molecule to appear. If you like to add multiple instances of an molecule (like in a list of elements), just ad `data-nr="number"` attribute. Like this: 
 ```html
-	<molecule data-molecule="list_element" data-nr="4" />
+<molecule data-molecule="list_element" data-nr="4" />
 ```
