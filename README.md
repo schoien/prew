@@ -31,7 +31,7 @@ You build a template by adding the sequence of organisms to your url. If you lik
 
 To include molecules in your organisms, add:  
 ```html
-<molecule data-molecule="ference" />
+<molecule data-molecule="reference" />
 ```
 where you want the molecule to appear. If you like to add multiple instances of an molecule (like in a list of elements), just ad `data-nr="number"` attribute. Like this: 
 ```html
