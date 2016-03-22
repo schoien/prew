@@ -1,0 +1,33 @@
+<article>
+	<h3>Intro</h3>
+	<p>Inspired by Brad Frost's concept of <a href="http://bradfrost.com/blog/post/atomic-web-design/" target="_blank">&laquo;atomic design&raquo;</a>, prew is made as an efficient way to organise code in &laquo;molecules&raquo; and &laquo;organisms&raquo; and show them as templates and pages. As an easy way of combining and reuse code for prototyping and through design refinement.</p>
+	<h3>What it is:</h3>
+	<ul>
+		<li></li>
+	</ul>	
+	<h3>What its not:</h3>
+	<ul>
+		<li>It's not a framework with CSS styling.</li>
+		<li>It's not a template-engine for production and real content.</li>
+	</ul>
+	<h3>Pros:</h3>
+	<ul>
+		<li>Super easy and small.</li>
+		<li>Javascript based: Works well in all environments, no server side needed.</li>
+		<li>Works offline, so you can use it with the preview engine in your favourite text editor.</li>
+		<li>Flexible: Easy to quickly rearrange, add and multiply organisms and molecules in the templates.</li>
+		<li>Process friendly: Follows the process from first html prototype throughout the complete design refinement.</li>
+		<li>Easy to combine width the framework you already use.</li>
+	</ul>
+	<h3>How it works</h3>
+		<p>All your &laquo;organisms&raquo; are stored as separate html files in the design folder.<br />
+			All your &laquo;molecules&raquo; are stored as elements in design/molecules.html.<br />
+			Organisms is identified by the filename.<br />
+			Molecules is identified by a data-molecule attribute.</p>
+		<p>You build a template by adding the sequence of organisms to your url. If you like a preview consisting of header.html, article.html and footer.html, just go to index.html?header:article:footer.</p>
+		<p>To include molecules in your organisms, add:<br />
+		<code>&lt;molecule data-molecule="ref" /&gt;</code></p>
+		<p>If you like to add multiple instances of an molecule (like in a list of elements), just ad data-nr="number" attribute. Like this:
+		<code>&lt;molecule data-molecule="list_element" data-nr="4" /&gt;</code></p>
+		<p>The elements will replace the molecule element</p>
+</article>

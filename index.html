@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Prew</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<script src="js/prew-min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function (){
+
+				/* CHANGE DEFAULT VALUES */
+				//prew.defaultPath = 'design/'; //The path to your HTML files (organisms)
+				//prew.defaultRep = 1; // Number of elements output if not set in <molecule data-nr='' >
+				//prew.defaultMoleculesPath = 'design/molecules.html'; //The path to the html file containing your molecules
+				prew.defaultBuild = 'header:article:footer'; //The default sequence og organisms when none is defined
+				
+				prew.load(); // build preview - js/prew.js
+			});
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>
