@@ -39,3 +39,6 @@ where you want the molecule to appear. If you like to add multiple instances of 
 ```html
 <molecule data-molecule="list_element" data-nr="4" />
 ```
+
+###Get in touch
+[bendik@tyde.no](mailto:bendik@tyde.no)
