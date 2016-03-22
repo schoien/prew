@@ -6,6 +6,8 @@ Create a preview of a page containing header.html, article.html and footer.html,
 <molecule data-molecule="ref" data-nr="nr" />
 ```
 
+prew uses [jQuery](http://jquery.com).
+
 ###What it is:
 Inspired by Brad Frost and he's concept of [atomic design](http://atomicdesign.bradfrost.com), prew is made as an efficient way to organise code in molecules and organisms and show them as templates and pages. As an easy way of combining and reuse code for prototyping and through design refinement.
 
